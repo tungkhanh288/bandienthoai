@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.account {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+    background-color: #242628;
+    margin: 0 24px;
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.inforr {
+    width: 800px;
+    height: 400px;
+}
+
+.infor-title {
+    width: 100%;
+    height: 70px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 70px;
+    border-bottom: 1px solid rgb(143, 125, 125);
+}
+
+.information .thongtinchitiet {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.information .thongtinchitiet>label {
+    margin: 10px 20px;
+    display: inline-block;
+    min-width: 200px;
+    text-align: right;
+    color: rgb(66, 59, 51);
+}
+
+.thongtinchitiet span {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.update {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.update button {
+    width: 250px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 550px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.update button:hover {
+    background-color: rgb(206, 44, 36);
+    color: aliceblue;
+}
+
+.wrapper {
+    width: 800px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 2px solid rgba(204, 110, 110, 0.5);
+    backdrop-filter: blur(20px);
+    position: relative;
+    bottom: 525px;
+    left: 800px;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform .5s ease;
+}
+.wrapper.active{
+    transform: scale(1);
+}
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #242628;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+.box-input {
+    width: 700px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.box-input label {
+    display: inline-block;
+    height: 40px;
+    font-size: 1em;
+    min-width: 200px;
+}
+
+.box-input input {
+    width: 350px;
+    height: 40px;
+    outline: none;
+    font-size: 1em;
+}
+
+.btncapnhat {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border-radius: 15px;
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+.btncapnhat:hover {
+    background-color: rgb(206, 44, 36);
+    color: aliceblue;
+}
